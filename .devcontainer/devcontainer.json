@@ -1,0 +1,13 @@
+{
+  "name": "CodeContainer",
+  "postStartCommand": "nohup startnovnc &",
+  "forwardPorts": [36080],
+  "portsAttributes": {
+    "36080": {
+      "label": "noVNC Desktop",
+      "visibility": "public"
+    }
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true
+}
